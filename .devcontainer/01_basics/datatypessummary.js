@@ -34,3 +34,28 @@ const myFunction = function(){
 
 // console.log(typeof bigNumber);
 console.log(typeof myFunction);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) (copy), Heap (Non primitive) (reference)
+
+let myYoutubename = "unnatiyoutubedotcom"
+let anothername = myYoutubename
+anothername = "javascriptplaylist"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userone = {
+    email : "use@google.com",
+    upi : "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "unnati@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
